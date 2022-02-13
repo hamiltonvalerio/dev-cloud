@@ -23,7 +23,7 @@ public class Role implements Serializable{
 	private String roleName;
 
 	public Role() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Role(Long id, String roleName) {

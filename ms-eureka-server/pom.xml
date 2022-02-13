@@ -11,6 +11,7 @@
 	</parent>
 	<groupId>valerio</groupId>
 	<artifactId>ms-eureka-server</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ms-eureka-server</name>
 	<description>Servidor Eureka</description>
