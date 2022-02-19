@@ -15,5 +15,7 @@ spring:
             authorization-uri: https://cestoque.b2clogin.com/cestoque.onmicrosoft.com/b2c_1_cestoque_github/oauth2/v2.0/authorize
             token-uri: https://cestoque.b2clogin.com/cestoque.onmicrosoft.com/b2c_1_cestoque_github/oauth2/v2.0/token
             jwk-set-uri: https://cestoque.b2clogin.com/cestoque.onmicrosoft.com/b2c_1_cestoque_github/discovery/v2.0/keys
+  application:
+    name: ms-oauth
 server:
   forward-headers-strategy: native
