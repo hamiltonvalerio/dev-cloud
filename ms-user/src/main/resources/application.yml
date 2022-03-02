@@ -9,25 +9,5 @@ server:
 spring:
   application:
     name: ms-user
-  data:
-    jpa:
-      repositories:
-        bootstrap-mode: default
-  datasource:
-    driverClassName: org.h2.Driver
-    password: ''
-    url: jdbc:h2:mem:testdb
-    username: sa
-  h2:
-    console:
-      enabled: true
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    generate-ddl: true
-    hibernate:
-      ddl-auto: create
-    show-sql: true
-  sql:
-    init:
-      mode: always
-      platform: h2
+  #config:
+    #import: optional:configserver:http://localhost:8888 

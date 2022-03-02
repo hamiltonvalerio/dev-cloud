@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: ms-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/hamiltonvalerio/ms-devcloud-configs
+          username: ${GITHUB_USER}
+          password: ${GITHUB_PASS}       
+

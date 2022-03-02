@@ -18,6 +18,8 @@ public class ApiGatewayConfig {
 						.uri("http://httpbin.org:80") )
 				.route(p -> p.path("/ms-crud/**")
 						.uri("lb://ms-crud"))
+				.route(p -> p.path("/ms-user/**")
+						.uri("lb://ms-user"))
 				.build();
 	}
 	
